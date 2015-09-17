@@ -3,7 +3,7 @@ class Comment extends AppModel{
 
 	public $actsAs = array('Containable');
 	public $recursive = -1;
-	public $validate = array(
+	public $validate = array( 
 		'username' => array(
 			'rule' => 'notEmpty',
 			'required' => true
